@@ -224,8 +224,8 @@ body{
    
 } 
 .collection-section .card{
-    min-width: 380px;
-    height: 430px;
+   min-width: 325px;
+    
     border: none;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -438,6 +438,27 @@ body{
     .row-grid .image3{
         padding: 0px !important;
     }
+    .row-grid {
+        display: grid;
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+          "img1"
+          "img2"
+          "img3";
+    }
+    .new-arrival{
+        padding-top: 30px;
+    }
+    .Categories{
+        padding-top: 30px;
+    }
+    .Categories .row_2{
+        margin-top: 30px;
+
+    }
+      
 }
 
 
